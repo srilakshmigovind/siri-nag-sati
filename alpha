@@ -1,0 +1,9 @@
+#include<ctype.h>
+#include<stdio.h>
+main()
+{
+	char x;
+	printf("enter a x");
+	scanf("%c",&x);
+(isalpha(x)) ?  printf("It is alphabet"):printf("It is not alphabet");
+}
